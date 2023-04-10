@@ -13,7 +13,7 @@ timezone: ''
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://blog.shun.ml
+url: https://blog.meng1122.xyz
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -105,9 +105,9 @@ deploy:
 - type: git
   repo: https://github.com/yangshun0323/blog.git
   branch: main
-- type: git
-  repo: https://gitee.com/qm1122/qm1122.git
-  branch: master
+# - type: git
+#   repo: https://gitee.com/qm1122/qm1122.git
+#   branch: master
 
 
 # 搜索插件配置

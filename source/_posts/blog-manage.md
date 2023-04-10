@@ -35,7 +35,10 @@ tags:
 # 评论系统([Valine](https://console.leancloud.cn/apps/zySaaEBgGPpLXNtHR9Y3wqTt-gzGzoHsz/storage/data/Comment  "LeanCloud") )：
 
 
-# 域名平台([freenom](https://www.freenom.com/zh/index.html?lang=zh  "freenom") )：账号:****560@gmail.com  速度较慢 无需梯子
+# 域名平台([freenom](https://www.freenom.com/zh/index.html?lang=zh  "freenom") )：账号:****560@gmail.com  速度较慢 无需梯子   已废弃
+
+
+# 域名平台2([godaddy](https://godaddy.com  "godaddy") )：账号:qq邮箱  托管在https://console.dnspod.cn （腾讯云域名管理）
 
 
 
