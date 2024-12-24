@@ -80,7 +80,7 @@ Prism.languages.javascript=Prism.languages.extend("clike",{"class-name":[Prism.l
 </div>
 <div>
     <input id="problem" placeholder="请输入要提问的问题" style="width: 60%;border: 1px solid;padding: 0 10px;" class="url-inp" />
-    <button onclick="send(event.target)" style="height: 50px;width: 100px;font-size: 23px;" id="sendBtn">发送</button>
+    <button onclick="send(event.target)" style="height: 50px;width: 100px;font-size: 23px;" id="sendBtn">发送.</button>
 </div>
 <p id="status"></p>
 
