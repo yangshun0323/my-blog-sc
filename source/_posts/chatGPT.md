@@ -3,7 +3,7 @@ title: ChatGPT-AI人机对话
 date: 
 author: 
 img: 
-top: true
+top: false
 hide: true
 cover: false
 coverImg: 
