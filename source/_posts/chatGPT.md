@@ -4,7 +4,7 @@ date:
 author: 
 img: 
 top: true
-hide: false
+hide: true
 cover: false
 coverImg: 
 password: 
@@ -80,7 +80,7 @@ Prism.languages.javascript=Prism.languages.extend("clike",{"class-name":[Prism.l
 </div>
 <div>
     <input id="problem" placeholder="请输入要提问的问题" style="width: 60%;border: 1px solid;padding: 0 10px;" class="url-inp" />
-    <button onclick="send(event.target)" style="height: 50px;width: 100px;font-size: 23px;" id="sendBtn">发送</button>
+    <button onclick="send(event.target)" style="height: 50px;width: 100px;font-size: 23px;" id="sendBtn">发送.</button>
 </div>
 <p id="status"></p>
 
@@ -88,10 +88,10 @@ Prism.languages.javascript=Prism.languages.extend("clike",{"class-name":[Prism.l
 
     var _sessionid = new Date().getTime();
     document.getElementById("sessionid").innerHTML = _sessionid;
-
+    
     // 获取 input 元素  
     const input = document.getElementById("problem");  
-
+    
     // 监听回车事件  
     input.addEventListener('keydown', function(event) {  
         if (event.keyCode === 13) {  
@@ -110,7 +110,7 @@ Prism.languages.javascript=Prism.languages.extend("clike",{"class-name":[Prism.l
         var status = document.getElementById("status");
         var response = document.getElementById("response");
         input.value ="";
-
+    
         response.innerHTML += `  
       <div style="clear: both;"><div style=" float: right;max-width: 75%;margin-right: 20px;"><div style="background-color: rgb(210 249 209 / var(--tw-bg-opacity));--tw-bg-opacity: 1;padding: 10px; display: inline-block;">${problem}</div><img style="max-width:24px; " src="https://img1.baidu.com/it/u=3423414161,1594291094&fm=253&app=138&size=w931&n=0&f=JPEG&fmt=auto?sec=1681146000&t=1b0535c82b878ef7b7c038ddcda6ab8e" onerror="javascript:this.parentNode.style.display = 'none';"></div></div>`;
         response.scrollTop = response.scrollHeight;
@@ -148,7 +148,7 @@ Prism.languages.javascript=Prism.languages.extend("clike",{"class-name":[Prism.l
             Prism.highlightAll()
         });
     }
-
+    
     function add() {
         _sessionid = new Date().getTime();
         document.getElementById("status").innerText = "会话创建成功，会话ID：" + _sessionid;
