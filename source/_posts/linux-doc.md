@@ -36,4 +36,3 @@ tail -f path/test.log | grep 'RE expression'
 
 
 
-##### 

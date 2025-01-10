@@ -23,7 +23,7 @@ tags:
 
 <input id="password" placeholder="请输入要加密的字符"/>
 <button  onclick="strConvertSha256()">1生成SHA256密码</button>
-<input id="sha256" placeholder="生成的密文"/>
+<input id="sha256" placeholder="生成的密文"/>      
 
 <div>
   <button  onclick="getAllKeyType()">查询所有KEYTYPE</button>
@@ -35,7 +35,6 @@ tags:
     var str = this.document.getElementById("password").value;
     this.document.getElementById("sha256").value = sha256(str);
   }
-
   const url = "https://cf.meng912.xyz";
   function getAllKeyType(){
     fetch(url+"/allkvtype").then((ret)=>{
